@@ -1,0 +1,30 @@
+# Python artifacts & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Datasets (>50MB) - Excluded from Git to ensure clean repository size
+*.csv
+CODE_RESOURCE/*.csv
+CODE_RESOURCE/cleaned_india_tech_career_intelligence_2026.csv
+*.csv.gz
+
+# Streamlit config / cache
+.streamlit/secrets.toml
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
